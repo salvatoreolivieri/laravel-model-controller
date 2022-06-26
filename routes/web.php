@@ -20,4 +20,4 @@ Route::get('/about', 'PageController@about')->name('about');
 
 Route::get('/contacts', 'PageController@contacts')->name('contacts');
 
-Route::get('/movie', 'PageController@movie')->name('movie');
+Route::get('/movie', 'MovieController@index')->name('movie');
